@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    flex-wrap: wrap; 
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(255,255,255,0.3);
+}
